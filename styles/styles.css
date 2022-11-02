@@ -341,6 +341,7 @@ justify-content: space-between;
 .portfolio-body {
     font-family: 'Roboto', sans-serif;
     color: var(--brand-color-first);
+    margin: 0;
     
 }
 
