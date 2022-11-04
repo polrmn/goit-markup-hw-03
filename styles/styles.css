@@ -76,19 +76,18 @@ a:hover, a:active, a:focus {
     padding-top: 24px;
     padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;
-    margin: 0 auto;
 }
 .container {
-    display: flex;
     max-width: 1200px; 
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
-    flex-wrap: wrap;
 }
 .header .container {
+    display: flex;
     gap: 50px;
     align-items: center;
+
 }
 
 .logo {
@@ -131,21 +130,25 @@ a:hover, a:active, a:focus {
     letter-spacing: 0.02em;
     color: var(--brand-color-text);
 }
-
+.mail-top,
 .tel-top {
     color: var(--brand-color-text);
 }
 
+/* .tel-top {
+    color: var(--brand-color-text);
+} */
+
 /* ШАПКА */
 .button-field {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     /* width: 1600px; */
     background-color: var(--barnd-color-secondary);
     /* padding: 200px 0; */
-    margin: 0 auto;
 }
 .button-field .container {
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 200px 15px;
@@ -182,11 +185,12 @@ a:hover, a:active, a:focus {
 
 .advantages {
     background-color: var(--brand-color-main);
+    padding: 94px 0;
 }
 .advantages .container {
     display: flex;
     justify-content: center;
-    padding: 94px 15px;
+    /* padding: 94px 15px; */
 }
 
 .advantages-list {
@@ -226,14 +230,16 @@ a:hover, a:active, a:focus {
     /* justify-content: center; */
     /* height: 480px; */
     background-color: var(--brand-color-main);
+    padding-bottom: 94px;
     /* padding-bottom: 94px; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 .work .container {
-    margin: 0 auto;
+    display: flex;
+    /* margin: 0 auto; */
     justify-content: center;
     gap: 50px;
-    padding: 0 15px 94px;
+    /* padding-bottom: 94px; */
     flex-wrap: wrap;
 }
 
@@ -261,13 +267,13 @@ a:hover, a:active, a:focus {
     justify-content: center;
     background-color: var(--brand-color-third);
     margin: 0 auto;
+    padding: 94px 0;
 }
 .team .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 50px;
-    padding: 94px 15px;
 }
 .team-members {
     display: flex;
@@ -296,7 +302,7 @@ a:hover, a:active, a:focus {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--brand-color-text);
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 /* НИЖНІЙ КОЛОНТИТУЛ */
@@ -306,12 +312,14 @@ a:hover, a:active, a:focus {
     /* display: flex; */
     /* justify-content: center; */
     background-color: var(--barnd-color-secondary);
+    padding: 60px 0;
     /* padding: 60px 0; */
 }
 .footer .container {
+    display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 60px 15px;
+    /* padding: 60px 15px; */
     gap: 20px;
 }
 .logo-footer {
@@ -363,6 +371,7 @@ a:hover, a:active, a:focus {
 
 .portfolio-section {
     background-color: var(--brand-color-main);
+    padding: 94px 0;
     /* width: 1600px; */
     /* display: flex; */
     /* justify-content: center; */
@@ -370,8 +379,7 @@ a:hover, a:active, a:focus {
     /* background-color: #F5F5F5; */
 }
 .portfolio-section .container {
-    margin: 0 auto;
-    padding: 94px 15px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
@@ -382,6 +390,7 @@ a:hover, a:active, a:focus {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 .filter {
     font-weight: 500;
@@ -391,6 +400,7 @@ a:hover, a:active, a:focus {
     letter-spacing: 0.03em;
     background-color: var(--brand-color-third);
     border-radius: 4px;
+
 }
 .filter:not(:first-child){
     padding: 6px 22px;
@@ -403,6 +413,9 @@ a:hover, a:active, a:focus {
 .filter:focus {
     background-color: var(--brand-color-activity);
     color: var(--brand-color-main);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+                0px 1px 2px rgba(0, 0, 0, 0.08), 
+                0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .projects {
@@ -418,6 +431,7 @@ gap: 30px;
     border-color: #EEEEEE;
     border-width: 1px;
     border-style: solid;
+    padding: 20px 24px;
 }
 
 /* .project-item:nth-child(3n+3) {
@@ -430,7 +444,7 @@ gap: 30px;
     line-height: 2;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
-    margin-left: 24px;
+    /* margin-left: 24px; */
     /* text-align: left; */
 }
 
@@ -439,5 +453,5 @@ gap: 30px;
     line-height: 1.8;
     letter-spacing: 0.03em;
     color: var(--brand-color-text);
-    margin-left: 24px;
+    /* margin-left: 24px; */
 }
