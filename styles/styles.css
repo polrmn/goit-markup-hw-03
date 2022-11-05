@@ -66,10 +66,12 @@ a:hover, a:active, a:focus {
     cursor: pointer;
 }
 
+.section {
+    padding: 94px 0;
+}
+
  /* HEADER  */
 .header {
-    /* display: flex; */
-    /* width: 1600px;   */
     background-color: var(--brand-color-main);
     justify-content: center;
     align-items: center;
@@ -135,23 +137,16 @@ a:hover, a:active, a:focus {
     color: var(--brand-color-text);
 }
 
-/* .tel-top {
-    color: var(--brand-color-text);
-} */
 
 /* ШАПКА */
 .button-field {
-    /* display: flex;
-    justify-content: center; */
-    /* width: 1600px; */
     background-color: var(--barnd-color-secondary);
-    /* padding: 200px 0; */
+    padding: 200px 0;
 }
 .button-field .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 200px 15px;
     gap: 30px;
 }
 
@@ -185,12 +180,10 @@ a:hover, a:active, a:focus {
 
 .advantages {
     background-color: var(--brand-color-main);
-    padding: 94px 0;
 }
 .advantages .container {
     display: flex;
     justify-content: center;
-    /* padding: 94px 15px; */
 }
 
 .advantages-list {
@@ -225,21 +218,13 @@ a:hover, a:active, a:focus {
 /* ЧИМ МИ ЗАЙМАЄМОСЬ */
 
 .work {
-    /* width: 1600px; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* height: 480px; */
     background-color: var(--brand-color-main);
-    padding-bottom: 94px;
-    /* padding-bottom: 94px; */
-    /* margin: 0 auto; */
+    padding: 0 0 94px;
 }
 .work .container {
     display: flex;
-    /* margin: 0 auto; */
     justify-content: center;
     gap: 50px;
-    /* padding-bottom: 94px; */
     flex-wrap: wrap;
 }
 
@@ -250,7 +235,6 @@ a:hover, a:active, a:focus {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    /* margin-bottom: 50px; */
 }
 
 .work-list {
@@ -262,12 +246,7 @@ a:hover, a:active, a:focus {
 /* НАША КОМАНДА */
 
 .team {
-    /* width: 1600px; */
-    /* display: flex; */
-    justify-content: center;
     background-color: var(--brand-color-third);
-    margin: 0 auto;
-    padding: 94px 0;
 }
 .team .container {
     display: flex;
@@ -308,22 +287,16 @@ a:hover, a:active, a:focus {
 /* НИЖНІЙ КОЛОНТИТУЛ */
 
 .footer {
-    /* width: 1600px; */
-    /* display: flex; */
-    /* justify-content: center; */
     background-color: var(--barnd-color-secondary);
     padding: 60px 0;
-    /* padding: 60px 0; */
 }
 .footer .container {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    /* padding: 60px 15px; */
     gap: 20px;
 }
 .logo-footer {
-    /* height: 31px;    */
     font-size: 26px;
     line-height: 1.19;
     font-family: 'Raleway';
@@ -337,12 +310,6 @@ a:hover, a:active, a:focus {
     display: flex;
     flex-direction: column;
     gap: 9px;
-    /* margin-top: 20px; */
-}
-
-.address-item {
-    
-    /* margin-bottom: 9px; */
 }
 
 .map {
@@ -370,13 +337,7 @@ a:hover, a:active, a:focus {
 }
 
 .portfolio-section {
-    background-color: var(--brand-color-main);
-    padding: 94px 0;
-    /* width: 1600px; */
-    /* display: flex; */
-    /* justify-content: center; */
-    
-    /* background-color: #F5F5F5; */
+    background-color: var(--brand-color-main);    
 }
 .portfolio-section .container {
     display: flex;
@@ -434,9 +395,6 @@ gap: 30px;
     padding: 20px 24px;
 }
 
-/* .project-item:nth-child(3n+3) {
-    margin-right: 0;
-} */
 
 .project-name {
     font-weight: 700;
@@ -444,8 +402,6 @@ gap: 30px;
     line-height: 2;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
-    /* margin-left: 24px; */
-    /* text-align: left; */
 }
 
 .project-type {
@@ -453,5 +409,4 @@ gap: 30px;
     line-height: 1.8;
     letter-spacing: 0.03em;
     color: var(--brand-color-text);
-    /* margin-left: 24px; */
 }
